@@ -50,26 +50,35 @@ public class LoginServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		Connection conn=JDBCUtil.getLocalConnection();
 		try {
-			PreparedStatement ps=conn.prepareStatement(sql);
-			ps.setString(1,userID);
-			ps.setString(2, password);
-			ResultSet rs=ps.executeQuery();
-			JSONObject result=new JSONObject();
-			if(rs.next()) {
-				System.out.println("µÇÂ½³É¹¦");
-				String username=rs.getString("name");
-				result.put("name", username);
-				result.put("isTrue", 1);
-				System.out.println(result);
-				response.getWriter().print(result);
-			}else {
-				System.out.println("µÇÂ½Ê§°Ü");
+			if (conn != null) {
+				PreparedStatement ps = conn.prepareStatement(sql);
+				ps.setString(1, userID);
+				ps.setString(2, password);
+				ResultSet rs = ps.executeQuery();
+				JSONObject result = new JSONObject();
+				if (rs.next()) {
+					System.out.println("µÇÂ½³É¹¦");
+					String username = rs.getString("name");
+					result.put("name", username);
+					result.put("isTrue", 1);
+					System.out.println(result);
+					response.getWriter().print(result);
+				} else {
+					System.out.println("µÇÂ½Ê§°Ü");
+					result.put("isTrue", 0);
+					response.getWriter().print(result);
+					System.out.println(result);
+				}
+			} else {
+				JSONObject result = new JSONObject();
 				result.put("isTrue", 0);
 				response.getWriter().print(result);
-				System.out.println(result);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
+			JSONObject result = new JSONObject();
+			result.put("isTrue", 0);
+			response.getWriter().print(result);
 			e.printStackTrace();
 		}finally {
 			if(conn!=null) {
