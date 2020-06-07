@@ -37,8 +37,14 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String userID=request.getParameter("userID");
-		String password=request.getParameter("password");
+		//response.setHeader("200", {"Content-Type":'text/plain','charset':'utf-8','Access-Control-Allow-Origin':'*','Access-Control-Allow-Methods':'PUT,POST,GET,DELETE,OPTIONS'});
+		response.setContentType("text/plain");
+		response.setCharacterEncoding("utf-8");
+		response.setHeader("Access-Control-Allow-Origin","*");
+		response.setHeader("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
+		System.out.print("«Î«Û£∫"+request.getQueryString());
+		String userID=request.getParameter("usercode");
+		String password=request.getParameter("userpwd");
 		System.out.println(userID+password);
 		String sql="select *from User where id=? and password=?";
 		response.setCharacterEncoding("UTF-8");

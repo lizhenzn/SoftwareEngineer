@@ -1,0 +1,265 @@
+.logo .user{
+    float: right;
+    margin-top: 30px;
+    position: relative;
+}
+.logo .user img{
+    position: absolute;
+    top: -4px;
+}
+.logo .user span:nth-of-type(1){
+    margin-left: 50px;
+}
+
+.logo .user span:nth-of-type(2){
+    color: #0063a6;
+}
+.logo .user span:nth-of-type(3){
+    color: #fc6b5a;
+}
+.logo .user button{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #0063a6;
+    background: #fff;
+    color: #0063a6
+}
+.logo .user button:nth-of-type(1){
+    background: #0063a6;
+    color: #fff;
+}
+nav ul{
+    float: left;
+}
+nav form {
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+nav form input{
+    width: 298px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    padding-left: 60px;
+}
+nav form button{
+    position: absolute;
+    border: none;
+}
+nav form button:nth-of-type(1){
+    border: none;
+    background: #eceff4;
+    color: #0063a6;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+nav form button:nth-of-type(2){
+    right: -1px;
+    top: 1px;
+    width: 68px;
+    height: 30px;
+    background:#0063a6;
+    border-right: 1px solid #dbdbdb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
+
+.main .video{
+    width: 960px;
+    height: 628px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+    padding: 0 9px
+}
+.video .top{
+    height: 78px;
+    margin-top: 8px;
+}
+.video .top .title{
+    border-bottom: 1px solid #fc6b5a;
+    background: #fff;
+}
+.video .top .title p{
+    font-size: 14px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.video .top .title button{
+    float: right;
+    width: 115px;
+    height: 30px;
+    border-radius: 2px;
+    background: #fc6b5a;
+    border: none;
+}
+.video .top .meg{
+    height: 48px;
+}
+.video .top .meg p{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 50px;
+}
+.video .top .meg p:nth-of-type(1){
+    margin-left: 10px;
+}
+
+.video-area .video-main  .show{
+    width: 650px;
+    height: 367px;
+    border: 1px solid #488b25;
+    float: left;
+}
+
+.video-area .video-main  .meg{
+    float: left;
+    width: 306px;
+    
+}
+.video-area .video-main  .meg .item{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #002061;
+}
+.video-main  .meg .item p{
+    float: left;
+    margin-left: 16px;
+    color:#fff;
+}
+.video-main  .meg .item p.selected{
+    border-bottom: 2px solid #488b25;
+}
+.video .video-area .video-list{
+    position: relative;
+    width: 960px;
+    height: 140px;
+}
+.video .video-area .video-list ul{
+    overflow: hidden;
+}
+.video .video-area .video-list ul li{
+    float: left;
+    margin-top: 10px;
+    margin-right: 18px;
+    position: relative;
+}
+.video .video-area .video-list ul li.selected{
+    color: #488b25;
+}
+.video .video-area .video-list ul li.selected img{
+    border: 2px solid #488b25;
+}
+.video .video-area .video-list ul li.selected i{
+    display: block;
+}
+.video .video-area .video-list ul li:nth-of-type(1){
+    margin-left: 45px;
+}
+.video .video-area .video-list img{
+    width: 150px;
+    height: 100px;
+}   
+.video .video-area .video-list ul li p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    margin-top: 5px;
+}
+.video .video-area .video-list ul li i{
+    position: absolute;
+    color: #fff;
+    background: #488b25;
+    top: 90px;
+    display: none;
+    
+}
+.video .video-area .video-list .buttonl,
+.video .video-area .video-list .buttonr
+{
+    position: absolute;
+    width: 30px;
+    height: 140px;
+    background: #488b25;
+    line-height: 140px;
+    font-size: 40px;
+    color: #fff;
+}
+.video .video-area .video-list .buttonl{
+    left: 0;
+    top: 0;
+}
+.video .video-area .video-list .buttonr{
+    right: 0;
+    top: 0;
+}
+
+.main .information{
+    width: 978px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+}
+.information .top{
+    width: 100%;
+    height: 44px;
+    background: #edeff4;
+    border-bottom: 1px solid #dbdbdb;
+}
+.information .top ul li{
+    float: left;
+    height: 100%;
+    line-height: 44px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+.information .top ul li.selected{
+    border-top: 2px solid #fc6b5a;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    height: 42px;
+    line-height: 40px;
+    background: #fff;
+}
+.information .question{
+    padding: 40px;
+}
+
+.information .question h4{
+    height: 34px;
+    line-height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #dbdbdb;
+}
+.information .question h4:nth-of-type(2){
+    margin-top: 40px;
+}
+.information .question ul li{
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    background: #ededed;
+    margin-top: 20px;
+}
+.information .question ul li p{
+    float: left;
+    padding-left: 20px;
+}
+.information .question ul li i{
+    float: right;
+    font-size: 40px;
+}

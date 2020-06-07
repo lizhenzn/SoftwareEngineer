@@ -1,0 +1,262 @@
+.logo .user{
+    float: right;
+    margin-top: 30px;
+    position: relative;
+}
+.logo .user img{
+    position: absolute;
+    top: -4px;
+}
+.logo .user span:nth-of-type(1){
+    margin-left: 50px;
+}
+
+.logo .user span:nth-of-type(2){
+    color: #0063a6;
+}
+.logo .user span:nth-of-type(3){
+    color: #fc6b5a;
+}
+.logo .user button{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #0063a6;
+    background: #fff;
+    color: #0063a6
+}
+.logo .user button:nth-of-type(1){
+    background: #0063a6;
+    color: #fff;
+}
+nav ul{
+    float: left;
+}
+nav form {
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+nav form input{
+    width: 298px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    padding-left: 60px;
+}
+nav form button{
+    position: absolute;
+    border: none;
+}
+nav form button:nth-of-type(1){
+    border: none;
+    background: #eceff4;
+    color: #0063a6;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+nav form button:nth-of-type(2){
+    right: -1px;
+    top: 1px;
+    width: 68px;
+    height: 30px;
+    background:#0063a6;
+    border-right: 1px solid #dbdbdb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.user-list{
+    width: 198px;
+    height: 596px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+}
+.user-list .photo{
+    width: 198px;
+    height: 204px;
+    border-bottom: 2px solid #0063a6;
+    position: relative;
+    
+}
+.user-list .photo img{
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.user-list .photo .userName{
+    position: absolute;
+    top: 111px;
+    left: 32px;
+    width: 138px;
+    height: 28px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #000;
+    opacity: .6;
+}
+.user-list .photo .meg{
+    margin-top: 22px;
+    text-align: center;
+
+}
+.user-list .photo .meg span{
+    color: #fc6b5a;
+}
+.user-list .list>ul>li>ul{
+    display: none;
+}
+.user-list .list>ul>li{
+    height: 39px;
+    border: 1px solid #dbdbdb;
+    line-height: 39px;
+    text-align: center;
+}
+.user-list .list>ul>li i{
+    display: block;
+    width: 39px;
+    height: 39px;
+    float: left;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+    border-top: none;
+
+}
+.silder03{
+    position: relative;
+    width: 768px;
+    height: 205px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.silder03 ul{
+    width: 752px;
+    height: 188px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.silder03 ul li{
+    float: left;
+}
+.silder03 .dot{
+    position: absolute;
+    width: 100%;
+    height:7px;
+    bottom:23px;
+    right: 30px;
+    text-align: right;
+}
+.silder03 .dot i{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #ababab;
+    border-radius:50%;
+
+}
+.silder03 .dot i.selected{
+    background: #ff0000;
+}
+
+.detail{
+    width: 768px;
+    height: 588px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+}
+.detail .title  li{
+    float: left;
+    margin-left: 10px;
+    width: 182px;
+    height: 78px;
+    background: linear-gradient(-150deg, transparent 20px, #dbdbdb 0) top right;
+}
+.detail .title li h4{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 16px;
+    
+}
+.detail .title li p{
+    color: #fff;
+    margin-top: 12px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.detail .title li:nth-of-type(1) p{
+    background: #fcc232;    
+}
+.detail .title  li:nth-of-type(2) p{
+    background: #8ec165;
+}
+.detail .title  li:nth-of-type(3) p{
+    background: #60aae9;
+}
+.detail .title  li:nth-of-type(4) p{
+    background: #00c0ef;
+}
+.detail .list{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.detail .list li{
+    float: left;
+    width: 368px;
+    height: 238px;
+    border: 1px solid #dbdbdb;
+}
+.detail .list li:nth-child(odd){
+    margin-right: 10px;
+}
+.detail .list li:nth-child(3),
+.detail .list li:nth-child(4){
+    margin-top: 10px;
+}
+
+.detail .list li .top{
+    width: 100%;
+    height: 38px;
+    border-bottom: 2px solid #fcc234;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: left;
+}
+.detail .list li .top p{
+    margin-left: 20px;
+}
+
+.detail .pay{
+    position: absolute;
+    left: 250px;
+    top:100px;
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+    border: 12px solid #dbdbdb;
+    text-align: center;
+    background:#60aae9;
+    border-radius: 5px;
+    display: none;
+
+}
+.detail .pay p{
+    line-height: 50px;
+}
+.detail .pay button{
+    background-color: cornsilk;
+    border: none;
+    width: 70px;
+    height: 25px;
+}

@@ -1,0 +1,200 @@
+.logo .user{
+    float: right;
+    margin-top: 30px;
+    position: relative;
+}
+.logo .user img{
+    position: absolute;
+    top: -4px;
+}
+.logo .user span:nth-of-type(1){
+    margin-left: 50px;
+}
+
+.logo .user span:nth-of-type(2){
+    color: #0063a6;
+}
+.logo .user span:nth-of-type(3){
+    color: #fc6b5a;
+}
+.logo .user button{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #0063a6;
+    background: #fff;
+    color: #0063a6
+}
+.logo .user button:nth-of-type(1){
+    background: #0063a6;
+    color: #fff;
+}
+nav ul{
+    float: left;
+}
+nav form {
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+nav form input{
+    width: 298px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    padding-left: 60px;
+}
+nav form button{
+    position: absolute;
+    border: none;
+}
+nav form button:nth-of-type(1){
+    border: none;
+    background: #eceff4;
+    color: #0063a6;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+nav form button:nth-of-type(2){
+    right: -1px;
+    top: 1px;
+    width: 68px;
+    height: 30px;
+    background:#0063a6;
+    border-right: 1px solid #dbdbdb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+
+
+.main .choice{
+    width: 978px;
+    height: 138px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+}
+.choice .top-list{
+    height: 41px;
+    background: #f9f8f5;
+    border-bottom: 1px solid #fc6b5a;
+}
+.choice .top-list ul li{
+    float: left;
+    border-radius: 3px;
+    padding: 10px 12px;
+    color: #0063a6;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.choice .top-list ul li:hover{
+    background: #0063a6;
+    color: #fff;
+}
+.choice .top-list ul li.selected{
+    background: #0063a6;
+    color: #fff;
+}
+.choice .detail{
+    border-top: 1px solid #fc6b5a;
+}
+.choice .detail ul li{
+    float: left;
+    border-radius: 3px;
+    padding: 10px 12px;
+    color: #0063a6;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.choice .detail ul:nth-of-type(1) li:hover{
+    color: #fff;
+    background: #93c469;
+    
+}
+.choice .detail ul:nth-of-type(1) li.selected{
+    color: #fff;
+    background: #93c469;
+    
+}
+.choice .detail ul:nth-of-type(2) li:hover{
+    color: #fff;
+    background: #b0d257;
+}
+.choice .detail ul:nth-of-type(2) li.selected{
+    color: #fff;
+    background: #b0d257;
+}
+.main .class-list {
+    width: 978px;
+    height: 891px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+}
+.class-list .top{
+    height: 44px;
+    background:   #f5f5f6;
+}
+.class-list .top p{
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+    float: left;
+    border-right: 1px solid #dbdbdb;
+}
+.class-list .top p:hover{
+    color: #fff;
+    background: #fc6b5a;
+}
+.class-list .top p.selected{
+    color: #fff;
+    background: #fc6b5a;
+}
+.class-list .detail-class ul{
+    width: 100%;
+}
+.class-list .detail-class ul li{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 24px;
+    position: relative;
+
+}
+.class-list .detail-class ul li img{
+    float: left;
+}
+.class-list .detail-class ul li p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left:20px; 
+    height: 30px;
+    line-height: 30px;
+
+}
+.class-list .detail-class ul li p:nth-of-type(1){
+    background: url(../images/market/star.png) no-repeat 610px 0;
+}
+.class-list .detail-class ul li p i{
+    color: #0063a6;
+}
+.class-list .detail-class ul li button{
+    position: absolute;
+    right: 21px;
+    bottom: 24px;
+    width: 125px;
+    height: 40px;
+    background: #0063a6;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+.class-list .bottom{
+    width: 100%;
+    height: 50px;
+}

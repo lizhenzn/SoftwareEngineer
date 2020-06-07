@@ -1,0 +1,197 @@
+.logo .user{
+    float: right;
+    margin-top: 30px;
+    position: relative;
+}
+.logo .user img{
+    position: absolute;
+    top: -4px;
+}
+.logo .user span:nth-of-type(1){
+    margin-left: 50px;
+}
+
+.logo .user span:nth-of-type(2){
+    color: #0063a6;
+}
+.logo .user span:nth-of-type(3){
+    color: #fc6b5a;
+}
+.logo .user button{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #0063a6;
+    background: #fff;
+    color: #0063a6
+}
+.logo .user button:nth-of-type(1){
+    background: #0063a6;
+    color: #fff;
+}
+nav ul{
+    float: left;
+}
+nav form {
+    float: left;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+nav form input{
+    width: 298px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    padding-left: 60px;
+}
+nav form button{
+    position: absolute;
+    border: none;
+}
+nav form button:nth-of-type(1){
+    border: none;
+    background: #eceff4;
+    color: #0063a6;
+    width: 50px;
+    height: 32px;
+    border: 1px solid #dbdbdb;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+nav form button:nth-of-type(2){
+    right: -1px;
+    top: 1px;
+    width: 68px;
+    height: 30px;
+    background:#0063a6;
+    border-right: 1px solid #dbdbdb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.user-list{
+    width: 198px;
+    height: 596px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+}
+.user-list .photo{
+    width: 198px;
+    height: 204px;
+    border-bottom: 2px solid #0063a6;
+    position: relative;
+    
+}
+.user-list .photo img{
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.user-list .photo .userName{
+    position: absolute;
+    top: 111px;
+    left: 32px;
+    width: 138px;
+    height: 28px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #000;
+    opacity: .6;
+}
+.user-list .photo .meg{
+    margin-top: 22px;
+    text-align: center;
+
+}
+.user-list .photo .meg span{
+    color: #fc6b5a;
+}
+.user-list .list>ul>li>ul{
+    display: none;
+}
+.user-list .list>ul>li{
+    height: 39px;
+    border: 1px solid #dbdbdb;
+    line-height: 39px;
+    text-align: center;
+}
+.user-list .list>ul>li i{
+    display: block;
+    width: 39px;
+    height: 39px;
+    float: left;
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+    border-top: none;
+
+}
+
+.main .choice{
+    width: 760px;
+    height: 138px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.choice .top-list{
+    height: 41px;
+    background: #f9f8f5;
+    border-bottom: 1px solid #fc6b5a;
+}
+.choice .top-list ul li{
+    float: left;
+    border-radius: 3px;
+    padding: 10px 12px;
+    color: #0063a6;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.choice .top-list ul li:hover{
+    background: #0063a6;
+    color: #fff;
+}
+.choice .top-list ul li.selected{
+    background: #0063a6;
+    color: #fff;
+}
+.choice .detail{
+    border-top: 1px solid #fc6b5a;
+}
+.choice .detail ul li{
+    float: left;
+    border-radius: 3px;
+    padding: 10px 12px;
+    color: #0063a6;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.choice .detail ul:nth-of-type(1) li:hover{
+    color: #fff;
+    background: #93c469;
+    
+}
+.choice .detail ul:nth-of-type(1) li.selected{
+    color: #fff;
+    background: #93c469;
+    
+}
+.choice .detail ul:nth-of-type(2) li:hover{
+    color: #fff;
+    background: #b0d257;
+}
+.choice .detail ul:nth-of-type(2) li.selected{
+    color: #fff;
+    background: #b0d257;
+}
+
+
+.main .info{
+    width: 760px;
+    height: 138px;
+    border: 1px solid #dbdbdb;
+    float: left;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
